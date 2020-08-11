@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.55000000000000004" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="covidStartScreen" translatesAutoresizingMaskIntoConstraints="NO" id="ibJ-V7-mxe">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ver. 1.1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nw5-u7-rCf">
+                                <rect key="frame" x="183.5" y="835" width="47" height="19"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Covid19 Monitor" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pZN-lb-cAz">
+                                <rect key="frame" x="67" y="494" width="280" height="37"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="37" id="niY-mq-bHV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="31"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="ibJ-V7-mxe" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="AZ0-MJ-8uG"/>
+                            <constraint firstAttribute="bottom" secondItem="ibJ-V7-mxe" secondAttribute="bottom" id="DXY-5z-52i"/>
+                            <constraint firstItem="Nw5-u7-rCf" firstAttribute="centerX" secondItem="ibJ-V7-mxe" secondAttribute="centerX" id="NAj-9c-xZu"/>
+                            <constraint firstItem="pZN-lb-cAz" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="450" id="Sax-42-9TQ"/>
+                            <constraint firstItem="ibJ-V7-mxe" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="ZDc-Fo-z3l"/>
+                            <constraint firstItem="pZN-lb-cAz" firstAttribute="centerX" secondItem="ibJ-V7-mxe" secondAttribute="centerX" id="aOs-di-cYN"/>
+                            <constraint firstItem="ibJ-V7-mxe" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="fcU-Q5-RTF"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Nw5-u7-rCf" secondAttribute="bottom" constant="8" id="iaP-QZ-dEv"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="covidStartScreen" width="527" height="641"/>
+    </resources>
+</document>
